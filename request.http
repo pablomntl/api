@@ -1,0 +1,38 @@
+###
+POST http://localhost:3000/api/products HTTP/1.1
+Content-Type: application/json
+
+{ 
+  "nome": "Ração Three Dogs Original Frango, Carne e Arroz para Cães",
+  "marca" : "Three Dogs",
+  "tipo": "Three Dogs",
+  "preco": 296.79
+  
+  
+}
+
+###
+GET http://localhost:3000/api/products HTTP/1.1
+
+###
+GET http://localhost:3000/api/products/631d5f12073e1ce48cbada50 HTTP/1.1
+
+###
+
+DELETE http://localhost:3000/api/products/63228231bff423bbbc5f95ce HTTP/1.1
+
+
+###
+PUT http://localhost:3000/api/products/6320df120fec172ab0e59a29 HTTP/1.1
+
+Content-Type: application/json
+
+{ 
+  "nome": "Ração Three Dogs Original Frango, Carne e Arroz para Cães",
+  "marca" : "Three Dogs",
+  "tipo": "Three Dogs",
+  "preco": 296.79,
+
+  
+}
+
